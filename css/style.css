@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -1573,7 +1573,18 @@ pre {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; }
     .table-responsive-md > .table-bordered {
-      border: 0; } }
+      border: 0; }
+
+    .skill-mf, .about-info,.mb-4, p{
+    padding-left: 9px;
+    padding-right: 9px;
+    }
+
+    .text .btn btn-primary py-3 px-3{
+      text-align:justify;
+    }
+
+    }
 
 @media (max-width: 991.98px) {
   .table-responsive-lg {
